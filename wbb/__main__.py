@@ -141,20 +141,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-────「 Tezza Robot 」────
-*Hᴇʟʟᴏ ɪ'ᴍ ᴛᴇᴢᴢᴀ*   
-✪ I'ᴍ ᴘᴏᴡᴇʀғᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ [🔥](https://telegra.ph/file/a8cc05eb6490cf23a57aa.jpg)
-✪ I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!
-─────────────────────
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
-───────────────────────
-➛ᴛʀʏ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs"
+f"Hey there! My name is {BOT_NAME}. I can manage your "
+    + "group with lots of useful features, feel free to "
+    + "add me to your group."
 )
 
 keyboard = InlineKeyboardMarkup(
