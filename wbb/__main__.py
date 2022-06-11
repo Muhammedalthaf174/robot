@@ -141,7 +141,6 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-*Hello {} !*
 ────「 Tezza Robot 」────
 *Hᴇʟʟᴏ ɪ'ᴍ ᴛᴇᴢᴢᴀ*   
 ✪ I'ᴍ ᴘᴏᴡᴇʀғᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ [🔥](https://telegra.ph/file/a8cc05eb6490cf23a57aa.jpg)
