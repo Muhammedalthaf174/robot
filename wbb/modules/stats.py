@@ -20,23 +20,23 @@ SOFTWARE.
 
 from pyrogram.types import Message
 
-from alita.bot_class import Alita
-from alita.database.antispam_db import GBan
-from alita.database.approve_db import Approve
-from alita.database.blacklist_db import Blacklist
-from alita.database.chats_db import Chats
-from alita.database.disable_db import Disabling
-from alita.database.filters_db import Filters
-from alita.database.greetings_db import Greetings
-from alita.database.notes_db import Notes, NotesSettings
-from alita.database.pins_db import Pins
-from alita.database.rules_db import Rules
-from alita.database.users_db import Users
-from alita.database.warns_db import Warns, WarnSettings
-from alita.utils.custom_filters import command
+from wbb.bot_class import Alita
+from wbb.database.antispam_db import GBan
+from wbb.database.approve_db import Approve
+from wbb.database.blacklist_db import Blacklist
+from wbb.database.chats_db import Chats
+from wbb.database.disable_db import Disabling
+from wbb.database.filters_db import Filters
+from wbb.database.greetings_db import Greetings
+from wbb.database.notes_db import Notes, NotesSettings
+from wbb.database.pins_db import Pins
+from wbb.database.rules_db import Rules
+from wbb.database.users_db import Users
+from wbb.database.warns_db import Warns, WarnSettings
+from wbb.utils.custom_filters import command
 
 
-@Alita.on_message(command("stats", dev_cmd=True))
+@app.on_message(command("stats", dev_cmd=True))
 async def get_stats(_, m: Message):
     # initialise
     bldb = Blacklist
