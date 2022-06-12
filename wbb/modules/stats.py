@@ -20,7 +20,7 @@ SOFTWARE.
 
 from pyrogram.types import Message
 
-from wbb.bot_class import Alita
+from wbb.bot_class import wbb
 from wbb.database.antispam_db import GBan
 from wbb.database.approve_db import Approve
 from wbb.database.blacklist_db import Blacklist
